@@ -239,6 +239,38 @@
   }
   .item-order:hover { background: #25d366; color: #fff; }
 
+
+  /* ── BISCOFF PREMIUM ── */
+  .menu-item.biscoff {
+    border-color: rgba(180, 100, 30, 0.55);
+    background: linear-gradient(135deg, #1a0f06 0%, var(--surface) 100%);
+    box-shadow: 0 0 0 1px rgba(200, 130, 50, 0.15);
+    position: relative;
+    overflow: hidden;
+  }
+  .menu-item.biscoff::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #b46a1e, #e8a030, #b46a1e);
+    border-radius: 2px 2px 0 0;
+  }
+  .menu-item.biscoff:hover {
+    border-color: rgba(232, 160, 48, 0.65);
+    box-shadow: 0 12px 32px rgba(180, 100, 30, 0.25), 0 0 0 1px rgba(232, 160, 48, 0.3);
+    transform: translateY(-5px);
+  }
+  .biscoff-badge {
+    display: inline-flex; align-items: center; gap: 4px;
+    background: linear-gradient(135deg, #b46a1e, #e8a030);
+    color: #fff;
+    font-size: .65rem; font-weight: 900; letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 2px 9px; border-radius: 10px;
+    margin-top: 6px;
+  }
+
 </style>
 </head>
 <body>
@@ -388,6 +420,10 @@
         <div class="item-left"><span class="item-emoji">🫧</span><div class="item-name">Bubblegum Waffle</div><div class="item-tag">Fun bubblegum flavour waffle</div></div>
         <div class="item-price">₹170</div>
       </div>
+      <div class="menu-item biscoff">
+        <div class="item-left"><span class="item-emoji">🍪</span><div class="item-name">Biscoff Waffle</div><div class="item-tag">Lotus Biscoff spread &amp; crumble</div></div>
+        <div class="item-price">₹140</div>
+      </div>
     </div>
   </div>
 
@@ -461,6 +497,10 @@
         <div class="item-price">₹190</div>
       </div>
       <div class="menu-item best"><div class="item-left"><span class="item-emoji">🌿</span><div class="item-name">Kunafa Bowl Cake</div><div class="item-tag">Crispy kunafa with sweet filling</div></div><div class="item-price">₹230</div></div>
+      <div class="menu-item biscoff">
+        <div class="item-left"><span class="item-emoji">🍪</span><div class="item-name">Biscoff Bowl Cake</div><div class="item-tag">Lotus Biscoff bowl with crumble topping</div></div>
+        <div class="item-price">₹190</div>
+      </div>
     </div>
   </div>
 
@@ -493,6 +533,8 @@
       <div class="menu-item best"><div class="item-left"><span class="item-emoji">🌿</span><div class="item-name">Pista Kunafa Waffle</div><div class="item-tag">Pistachio kunafa waffle</div></div><div class="item-price">₹170</div></div>
       <div class="menu-item"><div class="item-left"><span class="item-emoji">🍯</span><div class="item-name">Butterscotch Waffle</div><div class="item-tag">Buttery scotch caramel waffle</div></div><div class="item-price">₹170</div></div>
       <div class="menu-item"><div class="item-left"><span class="item-emoji">🫧</span><div class="item-name">Bubblegum Waffle</div><div class="item-tag">Fun bubblegum flavour waffle</div></div><div class="item-price">₹170</div></div>
+    
+      <div class="menu-item biscoff"><div class="item-left"><span class="item-emoji">🍪</span><div class="item-name">Biscoff Waffle</div><div class="item-tag">Lotus Biscoff spread &amp; crumble</div></div><div class="item-price">₹140</div></div>
     </div>
     <div style="margin:0 0 16px;"><span style="font-family:'Fredoka One',cursive;font-size:1.5rem;color:var(--blue-light);">🍡 Stick Waffles</span></div>
     <div class="menu-grid" style="margin-bottom:40px;">
@@ -516,6 +558,7 @@
       <div class="menu-item best"><div class="item-left"><span class="item-emoji">🫙</span><div class="item-name">Nutella Bowl Cake</div><div class="item-tag">Nutella-filled bowl cake</div></div><div class="item-price">₹190</div></div>
       <div class="menu-item"><div class="item-left"><span class="item-emoji">🥜</span><div class="item-name">Hazelnut Bowl Cake</div><div class="item-tag">Hazelnut cream bowl</div></div><div class="item-price">₹190</div></div>
       <div class="menu-item best"><div class="item-left"><span class="item-emoji">🌿</span><div class="item-name">Kunafa Bowl Cake</div><div class="item-tag">Crispy kunafa with sweet filling</div></div><div class="item-price">₹230</div></div>
+      <div class="menu-item biscoff"><div class="item-left"><span class="item-emoji">🍪</span><div class="item-name">Biscoff Bowl Cake</div><div class="item-tag">Lotus Biscoff bowl with crumble topping</div></div><div class="item-price">₹190</div></div>
     </div>
     <div style="margin:32px 0 16px;"><span style="font-family:'Fredoka One',cursive;font-size:1.5rem;color:var(--blue-light);">✨ Add-ons</span></div>
     <div class="menu-grid">
