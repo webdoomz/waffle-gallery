@@ -339,7 +339,7 @@
           <div class="stat-lbl">Starting Price</div>
         </div>
         <div class="stat-card">
-          <div class="stat-num">3</div>
+          <div class="stat-num">4</div>
           <div class="stat-lbl">Categories</div>
         </div>
         <div class="stat-card">
@@ -366,6 +366,7 @@
     <button class="tab-btn active" onclick="showTab('waffles',this)">🧇 Waffles</button>
     <button class="tab-btn" onclick="showTab('stick',this)">🍡 Stick Waffles</button>
     <button class="tab-btn" onclick="showTab('bowl',this)">🍫 Bowl Cakes</button>
+    <button class="tab-btn" onclick="showTab('wafflecake',this)">🎂 Waffle Cake</button>
     <button class="tab-btn" onclick="showTab('addons',this)">✨ Add-ons</button>
   </div>
 
@@ -424,6 +425,10 @@
         <div class="item-left"><span class="item-emoji">🍪</span><div class="item-name">Biscoff Waffle</div><div class="item-tag">Lotus Biscoff spread &amp; crumble</div></div>
         <div class="item-price">₹140</div>
       </div>
+      <div class="menu-item best">
+        <div class="item-left"><span class="item-emoji">🍫</span><div class="item-name">Kiki and Oreo Waffle</div><div class="item-tag">Kiki &amp; Oreo double crunch waffle</div></div>
+        <div class="item-price">₹170</div>
+      </div>
     </div>
   </div>
 
@@ -457,6 +462,10 @@
       <div class="menu-item">
         <div class="item-left"><span class="item-emoji">🥜</span><div class="item-name">Hazelnut Stick Waffle</div><div class="item-tag">Hazelnut cream stick</div></div>
         <div class="item-price">₹140</div>
+      </div>
+      <div class="menu-item best">
+        <div class="item-left"><span class="item-emoji">🔴</span><div class="item-name">Red Velvet Stick Waffle</div><div class="item-tag">Rich red velvet on a stick</div></div>
+        <div class="item-price">₹160</div>
       </div>
     </div>
   </div>
@@ -503,7 +512,27 @@
       </div>
     </div>
   </div>
-
+  <!-- WAFFLE CAKE -->
+  <div id="wafflecake" class="menu-section">
+    <div class="menu-grid">
+      <div class="menu-item">
+        <div class="item-left"><span class="item-emoji">🎂</span><div class="item-name">Waffle Cake (Single Layer)</div><div class="item-tag">Single layer waffle cake</div></div>
+        <div class="item-price">₹220</div>
+      </div>
+      <div class="menu-item best">
+        <div class="item-left"><span class="item-emoji">🎂</span><div class="item-name">Waffle Cake (Double Layer)</div><div class="item-tag">Double layer waffle cake</div></div>
+        <div class="item-price">₹280</div>
+      </div>
+      <div class="menu-item best">
+        <div class="item-left"><span class="item-emoji">🍫</span><div class="item-name">Waffle Cake with Brownie (3 Layer)</div><div class="item-tag">3 layer waffle cake with brownie</div></div>
+        <div class="item-price">₹380</div>
+      </div>
+      <div class="menu-item best">
+        <div class="item-left"><span class="item-emoji">🔴</span><div class="item-name">Waffle Cake with Red Velvet (3 Layer)</div><div class="item-tag">3 layer waffle cake with red velvet</div></div>
+        <div class="item-price">₹420</div>
+      </div>
+    </div>
+  </div>
 
   <!-- ADD-ONS -->
   <div id="addons" class="menu-section">
@@ -535,6 +564,7 @@
       <div class="menu-item"><div class="item-left"><span class="item-emoji">🫧</span><div class="item-name">Bubblegum Waffle</div><div class="item-tag">Fun bubblegum flavour waffle</div></div><div class="item-price">₹170</div></div>
     
       <div class="menu-item biscoff"><div class="item-left"><span class="item-emoji">🍪</span><div class="item-name">Biscoff Waffle</div><div class="item-tag">Lotus Biscoff spread &amp; crumble</div></div><div class="item-price">₹140</div></div>
+      <div class="menu-item best"><div class="item-left"><span class="item-emoji">🍫</span><div class="item-name">Kiki and Oreo Waffle</div><div class="item-tag">Kiki &amp; Oreo double crunch waffle</div></div><div class="item-price">₹170</div></div>
     </div>
     <div style="margin:0 0 16px;"><span style="font-family:'Fredoka One',cursive;font-size:1.5rem;color:var(--blue-light);">🍡 Stick Waffles</span></div>
     <div class="menu-grid" style="margin-bottom:40px;">
@@ -546,6 +576,7 @@
       <div class="menu-item"><div class="item-left"><span class="item-emoji">🍬</span><div class="item-name">Dairy Milk Stick Waffle</div><div class="item-tag">Dairy Milk on a stick</div></div><div class="item-price">₹100</div></div>
       <div class="menu-item best"><div class="item-left"><span class="item-emoji">🫙</span><div class="item-name">Nutella Stick Waffle</div><div class="item-tag">Nutella-dipped stick</div></div><div class="item-price">₹120</div></div>
       <div class="menu-item"><div class="item-left"><span class="item-emoji">🥜</span><div class="item-name">Hazelnut Stick Waffle</div><div class="item-tag">Hazelnut cream stick</div></div><div class="item-price">₹140</div></div>
+      <div class="menu-item best"><div class="item-left"><span class="item-emoji">🔴</span><div class="item-name">Red Velvet Stick Waffle</div><div class="item-tag">Rich red velvet on a stick</div></div><div class="item-price">₹160</div></div>
     </div>
     <div style="margin:0 0 16px;"><span style="font-family:'Fredoka One',cursive;font-size:1.5rem;color:var(--blue-light);">🍫 Bowl Cakes</span></div>
     <div class="menu-grid">
@@ -559,6 +590,13 @@
       <div class="menu-item"><div class="item-left"><span class="item-emoji">🥜</span><div class="item-name">Hazelnut Bowl Cake</div><div class="item-tag">Hazelnut cream bowl</div></div><div class="item-price">₹190</div></div>
       <div class="menu-item best"><div class="item-left"><span class="item-emoji">🌿</span><div class="item-name">Kunafa Bowl Cake</div><div class="item-tag">Crispy kunafa with sweet filling</div></div><div class="item-price">₹230</div></div>
       <div class="menu-item biscoff"><div class="item-left"><span class="item-emoji">🍪</span><div class="item-name">Biscoff Bowl Cake</div><div class="item-tag">Lotus Biscoff bowl with crumble topping</div></div><div class="item-price">₹190</div></div>
+    </div>
+        <div style="margin:32px 0 16px;"><span style="font-family:'Fredoka One',cursive;font-size:1.5rem;color:var(--blue-light);">🎂 Waffle Cake</span></div>
+    <div class="menu-grid" style="margin-bottom:40px;">
+      <div class="menu-item"><div class="item-left"><span class="item-emoji">🎂</span><div class="item-name">Waffle Cake (Single Layer)</div><div class="item-tag">Single layer waffle cake</div></div><div class="item-price">₹220</div></div>
+      <div class="menu-item best"><div class="item-left"><span class="item-emoji">🎂</span><div class="item-name">Waffle Cake (Double Layer)</div><div class="item-tag">Double layer waffle cake</div></div><div class="item-price">₹280</div></div>
+      <div class="menu-item best"><div class="item-left"><span class="item-emoji">🍫</span><div class="item-name">Waffle Cake with Brownie (3 Layer)</div><div class="item-tag">3 layer waffle cake with brownie</div></div><div class="item-price">₹380</div></div>
+      <div class="menu-item best"><div class="item-left"><span class="item-emoji">🔴</span><div class="item-name">Waffle Cake with Red Velvet (3 Layer)</div><div class="item-tag">3 layer waffle cake with red velvet</div></div><div class="item-price">₹420</div></div>
     </div>
     <div style="margin:32px 0 16px;"><span style="font-family:'Fredoka One',cursive;font-size:1.5rem;color:var(--blue-light);">✨ Add-ons</span></div>
     <div class="menu-grid">
